@@ -1,0 +1,49 @@
+/* Tablets */
+@media screen and (min-width: 600px) {
+    header #nav-bar{
+        display: block;
+    }
+    #menu-icon{
+        display: none ;
+    }
+
+    #menu_mobile{
+        display: none;
+    }
+    
+    #home #home-container h2 {
+        font-size: 2em;
+    }
+
+    .avaliacao:last-child {
+        margin-top: 1em;
+        transform: translate(10%, 0);
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 768px) {
+    header #logo_container h2 {
+        display: block;
+    }
+
+    .carrosel {
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        overflow-x: auto;
+    
+        padding: 2em;
+        gap: 2.5em;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  :target {
+    scroll-margin-top: 75px;
+  }

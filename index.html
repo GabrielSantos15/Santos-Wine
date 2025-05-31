@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos Wine's</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/media.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo_container">
+            <img src="img/logo.png" alt="logo" width="50">
+            <h2>Santos Wine´s</h2>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#section_avaliacoes">Avaliações</a></li>
+                <li><a href="#contato" id="contato-button">Contato</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars" id="menu-icon" onclick="menu()"></i>
+    </header>
+    <nav id="menu_mobile" class="hidden">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#section_avaliacoes">Avaliações</a></li>
+            <li><a href="#contato" id="contato-button">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <div id="home-container">
+                <h2>Tradição em cada gole, excelência em cada safra.</h2>
+                <p> Selecionamos rótulos únicos, com sabores que despertam memórias e criam momentos inesquecíveis. Seja
+                    para brindar conquistas, celebrar encontros ou apenas apreciar o agora, temos o vinho perfeito para
+                    você.</p>
+                <a href="#">Fazer pedido </a>
+
+            </div>
+            <picture>
+                <img src="img/produtos.png" alt="produtos Santos Wine's">
+            </picture>
+        </section>
+        <section id="quemSomos">
+            <article>
+                <h2 class="titulo">Quem somos</h2>
+                <p>Fundada em 2005 em São Roque, a Santos Wine’s nasceu de uma pequena vinícola familiar e se
+                    transformou em uma referência nacional. De rótulos artesanais para famílias locais a uma marca
+                    reconhecida em diversas regiões do Brasil, nossa história é marcada por crescimento, tradição e
+                    excelência.
+
+                    Há 20 anos, entregamos mais que vinho: entregamos história, sabor e qualidade em cada garrafa.
+            </article>
+            <picture>
+                <img src="img/segurandoVinho.jpg" alt="">
+            </picture>
+        </section>
+        <section id="infos">
+            <div>
+                <span>
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3>Entrega</h3>
+                </span>
+                <p>Com nossa entrega rápida, levamos praticidade e eficiência direto até você.</p>
+            </div>
+            <div>
+                <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    <h3>Qualidade</h3>
+                </span>
+                <p>Nossa prioridade é garantir qualidade em cada detalhe.</p>
+            </div>
+            <div>
+                <span>
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Atendimento</h3>
+                </span>
+                <p>Nosso compromisso é oferecer um atendimento excepcional.</p>
+            </div>
+        </section>
+        <section id="cardapio">
+            <h2 class="titulo">Cardápio</h2>
+            <div class="carrosel">
+                <div class="card">
+                    <img src="img/CasaBranca.png" alt="Casa Branca">
+                    <h3>Casa Branca</h3>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <p>(8000+)</p>
+                    </span>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <img src="img/SaintsMerlot.png" alt="Saints Merlot">
+                    <h3>Saints Merlot</h3>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p>(9500+)</p>
+                    </span>
+                    <p>Lorem ipsum doles ad opt!</p>
+                </div>
+                <div class="card">
+                    <img src="img/ceu.png" alt="Ceu">
+                    <h3>Céu Rose</h3>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <p>(2500+)</p>
+                    </span>
+                    <p>Lorem ipsum dolores ad opt!</p>
+                </div>
+            </div>
+        </section>
+        <section id="section_avaliacoes">
+            <h2 class="titulo">Avaliações</h2>
+            <h3>O que os clientes falam sobre nós</h3>
+            <div class="container_avaliacoes">
+                <picture>
+                    <img src="img/garrafa-de-vinho-copo-e-uvas-isoladas-em-branco.png"alt="Copo com milkshake">
+                </picture>
+                <div class="avaliacoes">
+                    <div class="avaliacao">
+                        <div>
+                            <span class="user">
+                                <img src="img/user.jpg" alt="foto de usuário">
+                                <h4>Cliente</h4>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet Neque, soluta dolorum vel reiciendis numquam hic libero
+                            praesentium
+                            corrupti! Ea?</p>
+                    </div>
+                    <div class="avaliacao">
+                        <div>
+                            <span class="user">
+                                <img src="img/user.jpg" alt="foto de usuário">
+                                <h4>Cliente</h4>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet Neque, soluta dolorum vel reiciendis numquam hic libero
+                            praesentium
+                            corrupti! Ea?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Santos Wine's</h3>
+        <div id="container_redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <h4 id="contato">Contato</h4>
+        <div id="footer_contato">
+
+            <span>
+                <h4>telefone:</h4>
+                <p>123 456 7890</p>
+            </span>
+            <span>
+                <h4>email:</h4>
+                <p>santoswine@contato.com</p>
+            </span>
+
+    </footer>
+</body>
+<script>
+    // Script para o menu mobile
+    const menuMobile = document.querySelector('#menu_mobile');
+
+    function menu() {
+        menuMobile.classList.contains('hidden') ? menuMobile.classList.remove('hidden') : menuMobile.classList.add('hidden')
+    }
+
+</script>
+
+</html>
