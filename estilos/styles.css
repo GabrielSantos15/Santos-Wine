@@ -28,7 +28,8 @@ h3 {
     text-transform: capitalize;
     font-family: var(--fontTitulo);
 }
-.titulo{
+
+.titulo {
     font-variant: small-caps;
     text-align: center;
     font-weight: normal;
@@ -236,9 +237,9 @@ section {
     mask-image: url(../img/paternT.png);
     mask-repeat: no-repeat;
     mask-position: center center;
-    mask-size:contain;
+    mask-size: contain;
 
-    width: min(700px,100%);
+    width: min(700px, 100%);
 }
 
 #quemSomos picture img {
@@ -287,7 +288,50 @@ section {
     max-width: 250px;
 }
 
+#culturaOrganizacional {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--cor3);
+    gap: 1em;
+}
 
+#culturaOrganizacional h2 {
+    text-align: center;
+    color: var(--cor1);
+    width: 100%;
+}
+
+#culturaOrganizacional details {
+    width: min(400px, 100%);
+}
+
+#culturaOrganizacional p,
+#culturaOrganizacional ul {
+    list-style-position: inside;
+    padding: 10px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#culturaOrganizacional summary {
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: var(--fontTitulo);
+    padding: 5px;
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+
+video {
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px #00000032;
+    border-radius: 5px;
+    width: min(800px, 100%);
+    margin: auto;
+}
 
 .carrosel {
     display: flex;
@@ -332,7 +376,7 @@ section {
 }
 
 .card img {
-    width: 200px;
+    width: 150px;
 
     object-fit: cover;
     overflow: hidden;
