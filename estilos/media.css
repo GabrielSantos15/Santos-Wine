@@ -15,10 +15,6 @@
         font-size: 2em;
     }
 
-    .avaliacao:last-child {
-        margin-top: 1em;
-        transform: translate(10%, 0);
-    }
 }
 
 /* desktop */
@@ -26,7 +22,11 @@
     header #logo_container h2 {
         display: block;
     }
-
+    
+    .avaliacao:last-child {
+        margin-top: 1em;
+        transform: translate(10%, 0);
+    }
     .carrosel {
         justify-content: center;
         flex-wrap: wrap;

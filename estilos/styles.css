@@ -6,7 +6,7 @@
 
     --cor1: #97264a;
     --cor2: #000;
-    --cor3: #fff;
+    --cor3: #f5f5f5;
     --cor4: #eee;
 }
 
@@ -266,9 +266,10 @@ section {
     width: min(250px, 100%);
 
     text-align: center;
-    padding: 2em;
+    padding: 2em 1em 1em;
     border-radius: 2px;
     box-shadow: 1px 2px 5px 1px #2222222e;
+    background-color: var(--cor3);
 }
 
 #infos div span {
@@ -330,6 +331,7 @@ video {
     box-shadow: 5px 5px 5px #00000032;
     border-radius: 5px;
     width: min(800px, 100%);
+    aspect-ratio: 16/9;
     margin: auto;
 }
 
@@ -339,6 +341,7 @@ video {
     flex-wrap: nowrap;
 
     overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 
     padding: 2em;
     gap: 2.5em;
@@ -367,6 +370,7 @@ video {
     flex-shrink: 0;
     width: min(300px, 100%);
     text-align: center;
+    scroll-snap-align: center;
 }
 
 .card h3 {
@@ -415,12 +419,12 @@ video {
 }
 
 .avaliacao {
-    max-width: 500px;
+    max-width: 600px;
     min-height: 150px;
 
     padding: 1em;
     box-shadow: 1px 2px 5px 1px #2222222e;
-    background-color: var(--cor4);
+    background-color: var(--cor3);
 }
 
 .avaliacao:last-child {
@@ -433,6 +437,7 @@ video {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
+    margin-bottom: .5em;
 }
 
 .avaliacao img {
